@@ -1,0 +1,61 @@
+#cabecalho{
+    background-color: aquamarine;
+  }
+
+.btn:hover {
+    background-color: rgb(161, 194, 176);
+    
+  }
+
+    /* para estilizar o menu, vamos passo a passo, item por item*/
+   #menu ul{
+     
+       margin: 0;
+       background-color: #3385ff;
+       list-style: none;
+  }
+
+    #menu ul li{
+        display: inline;
+       
+  }
+
+    #menu ul li a{
+        padding: 40px 40px;
+        color: white;
+        text-decoration: none;
+       
+  }
+
+     #menu ul li a:hover{
+        color:#004d00;
+  }
+
+    h1{
+        text-align: center;
+      }
+
+      #dados{
+          visibility: hidden;
+          width:450px;
+          height:350px;
+         /* border: solid 1px black;*/
+          position: fixed center;
+  }
+
+      footer{	   
+        display: block;
+        background-color:black;
+        color:white;
+        text-align: center;
+        margin-bottom: 0px;
+        height: 40px;
+        padding-top:5px;
+        width:100%;
+        position:fixed;
+        bottom:0px;
+        left:0px;   
+ }
+
+   
+    
